@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width,device-width">
+  <!--=== mycss ====-->
+  <link rel="stylesheet" href="style/login.css">
+  <!--=== FONT ICON =====-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <!--==== HEADER ==== -->
+  <header>
+    <nav>
+      <ul class="top-item">
+        <li><a href="#">Become a Seller</a></li>
+        <li><a href="#">Daraz Donates</a></li>
+        <li class="sub-menu-hover"><a href="#">Help & Support</a></li>
+      </ul>
+      <ul>
+        <li class="right-top">
+          <img style="width:20px;"
+            src="https://img.alicdn.com/imgextra/i1/O1CN01Ie2YnK1JmZ1mL3fY5_!!6000000001071-2-tps-60-60.png" alt="">
+          <a href="#">Save More on App</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bottom">
+      <div class="left-section">
+        <img src="https://icms-image.slatic.net/images/ims-web/3ac46ea5-a376-41cc-981f-21fa690468c0.png" alt="">
+      </div>
+      <div class="catagoray">
+        <button id="catagory-btn">
+          <p>Catagory</p> <i class="fa-solid fa-angle-down"></i>
+        </button>
+      </div>
+      <div class="meddle-section">
+        <input type="text" placeholder="Search in Daraz">
+        <button class="btn-1">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </li>
+      </div>
+      <div class="right-section">
+        <ul>
+          <li style="border-right: 2px solid white;"><a href="login.html"><i class="fa-solid fa-user"></i> Login</a>
+          </li>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#"><i class="fa-solid fa-globe"></i> EN<i class="fa-solid fa-angle-down"></i></a></li>
+          <li id="card"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--=== MAIN ===== -->
+  <main>
+    <section id="signup-form">
+      <div class="flex-container">
+        <div class="c-d-account">
+          <p style="font-size: 25px;">Create your Daraz Account</p>
+          <p style="text-align: right;">Already member? <a style="text-decoration: none;color:rgb(0, 132, 255)" href="login.html">Login</a> here.</p>
+        </div>
+        <div class="form">
+          <form>
+          <div class="left">
+          <p>Phone Number*</p>
+          <input type="tel" name="userphone" placeholder="Pleas inter your phone number">
+          <p>Verfication Code from SMS*</p>
+          <input class="text" type="text" name="VerficationCode" placeholder="Verfication Code">
+          <p>Password*</p>
+          <input type="password" name="userpassword" placeholder="Minimum 6 characters with a number and a letter">
+          <p>Birthday</p>
+          <input list="month" autocomplete="off" placeholder="year">
+          <datalist id="month">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+          </datalist>
+          <input list="month" autocomplete="off" placeholder="Month">
+          <datalist id="month">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+          </datalist>
+          <input list="month" autocomplete="off" placeholder="Day">
+          <datalist id="month">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+            <option value="January">
+          </datalist>
+            <div class="gender">
+              <p>Gender</p>
+            <input list="gender" placeholder="Select">
+            <datalist id="gender">
+              <option value="Male">
+              <option value="famle">
+            </datalist>
+            </div>
+          </div>
+          <div class="right">
+            <p>Fullname*</p>
+            <input class="text" type="text" placeholder="inter your first and last name">
+            <br>
+           <div style="display: flex;gap:10px;">
+            <label class="check-bg">
+              <input class="check" type="checkbox" name="myCheckbox" checked>
+              <div class="checkmark">
+                <i class="fa-solid fa-check"></i>
+              </div>
+            </label>
+            <p style="display:inline;">I'd like to receive exclusive offers and promotions via SMS</p>
+           </div>
+            <br>
+            <input type="submit" value="SIGN UP">
+            <P>By clicking “SIGN UP”, I agree to Daraz's Terms of Use and Privacy Policy</P>
+            <P style="padding:15px 0px;">Or, sign up with</P>
+            <div class="fb-s">
+              <span><i class="fa-brands fa-facebook-f"></i> Facebook</span>
+          </div>
+          <div class="google-s">
+              <span><i class="fa-brands fa-google-plus-g"></i> Google</span>
+          </div> 
+          </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--==== FOOTER ==== -->
+  <footer>
+    <div class="footer">
+    <div class="footer-grid">
+      <div style="padding-left: 15px;" class="footer-item hover">
+        <ul>
+          <h3>Customer Care</h3>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">How to Buy</a></li>
+          <li><a href="#">Returns & Refunds</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">CCMS - Central Complain Management System</a></li>
+        </ul>
+        <ul style="margin-top: 30px;">
+          <h3>Earn With Daraz</h3>
+          <li><a href="#">Daraz University</a></li>
+          <li><a href="#">Sell on Daraz</a></li>
+          <li><a href="#">Code of Conduct</a></li>
+          <li><a href="#">Join the Daraz Affiliate Program</a></li>
+        </ul>
+      </div>
+      <div class="footer-item hover">
+        <ul>
+          <h3>Daraz</h3>
+          <li><a href="#">About Daraz</a></li>
+          <li><a href="#">Digital Payments</a></li>
+          <li><a href="#">Daraz Card</a></li>
+          <li><a href="#">Daraz Blog</a></li>
+          <li><a href="#">Daraz Cares</a></li>
+          <li><a href="#">Daraz Mart</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Daraz App</a></li>
+          <li><a href="#">Daraz Exclusives</a></li>
+          <li><a href="#">Daraz Donates</a></li>
+        </ul>
+      </div>
+      <div class="footer-item hover">
+        <h3>Daraz International</h3>
+        <div class="International">
+          <a href="#">
+            <div>
+              <span><img src="img/p.png" alt=""></span>
+              <p>Pakistan</p>
+            </div>
+          </a>
+          <a href="#">
+            <div>
+              <span><img src="img/b.png" alt=""></span>
+              <p>Bangladesh</p>
+            </div>
+          </a>
+          <a href="#">
+            <div>
+              <span><img src="img/a.png" alt=""></span>
+              <p>Sri Lanka</p>
+            </div>
+          </a>
+          <a href="#">
+            <div>
+              <span><img src="img/m.png" alt=""></span>
+              <p>Myanmar</p>
+            </div>
+          </a>
+          <a href="#">
+            <div>
+              <span><img src="img/n.png" alt=""></span>
+              <p>Nepal</p>
+            </div>
+          </a>
+          <h3 style="margin-top: 30px;">Payment Methods</h3>
+          <div class="payment-img">
+            <img src="img/cash.png" alt="">
+            <img src="img/visa.png" alt="">
+            <img src="img/mcard.png" alt="">
+            <img src="img/am.png" alt="">
+            <img src="img/month.png" alt="">
+            <img src="img/bkas.png" alt="">
+            <img src="img/roket.png" alt="">
+          </div>
+          `
+        </div>
+        <div style="gap:25px; margin-top: 30px;" class="flex">
+          <div>
+            <h3>Verified by</h3>
+            <img src="img/pic.png" alt="">
+          </div>
+          <div>
+            <h3>DBID</h3>
+            <p>Registeration ID :<br>304903094</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-item">
+        <div class="last-div">
+          <h3>Exclusive Deals and Offers!</h3>
+          <div class="flex">
+            <div>
+              <img style="width: 100px;"
+                src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1nvAvXMFY.1VjSZFnXXcFHXXa.png" alt="">
+            </div>
+            <div class="img">
+              <img src="img/app store.png" alt="">
+              <img src="img/playstor.png" alt="">
+              <img src="img/app gallary.png" alt="">
+            </div>
+          </div>
+          <div style="gap:10px;" class="flex">
+            <img src="https://img.alicdn.com/imgextra/i1/O1CN01Ie2YnK1JmZ1mL3fY5_!!6000000001071-2-tps-60-60.png"
+              alt="">
+            <div>
+              <h2 style="color:rgb(248, 74, 74);">Happy Sopping</h2>
+              <p>Download App</p>
+            </div>
+          </div>
+          <h3 style="margin-top: 30px;">Follow Us</h3>
+          <ul class="social-link">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
+
