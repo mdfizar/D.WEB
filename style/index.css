@@ -3,15 +3,18 @@
   padding: 0px;
   margin: 0px;
 }
+.lay-out {
+  width:fit-content;
+  margin:auto;
+}
 html {
   scroll-behavior: smooth;
-  width:fit-content;
+  background-color: #f5f5f5;
 }
 header {
   background-color: #f85606;
   padding: 0px 10px;
   padding-bottom: 10px;
-  width: fit-content;
 }
 header nav {
   display: flex;
@@ -104,6 +107,7 @@ header nav ul li a:hover {
 .bottom {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 5px;
 }
 .left-section img {
@@ -273,7 +277,7 @@ main {
   display: grid;
   grid-template-columns: auto auto;
   gap: 30px;
-  width: fit-content;
+  justify-content: center;
 }
 
 #template #item li {
@@ -282,6 +286,7 @@ main {
 }
 #template #item li a{
   text-decoration: none;
+  color:black;
 }
 #template #item li a:hover {
   color:#f85606;
@@ -379,6 +384,7 @@ main {
   text-decoration: none;
   align-items: center;
   border-right: 1px solid black;
+  color: black;
   padding-right: 20px;
   margin-left: 20px;
 }
